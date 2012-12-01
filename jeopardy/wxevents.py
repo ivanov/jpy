@@ -230,6 +230,7 @@ class MyWindow(wx.Panel):
         dlg = Question(self.name, self.idx)
         # XXX: take the next line out after done testing questions
         #dlg.test()
+        print template % questions[self.name][self.idx][1]
         dlg.ShowModal()
         dlg.Destroy()  
         #sizeT = (640,480)

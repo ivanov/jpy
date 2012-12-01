@@ -28,12 +28,18 @@ BA = []
 
 
 TST.append(("""
-    <Br><br><Br>
+    <Br>
+Why is Alex Trebek so cool?
+<br><br>Because he’s Canadian
+<br>Because he rocks his moustache
+
+
 
 
     """,
     """
     <Br><br><Br>
+Because he’s Canadian
 
 <font size=-3><br>
 <img height="200px" src="pictures/Bliss.jpg">
@@ -453,6 +459,26 @@ human DNA?<br>
     ))
 
 TST.append(("""
+    <Br><br><Br>
+What is 123 in hexidecimal form?
+
+
+
+
+
+    """,
+    """
+    <Br><br><Br>
+Answer: 0x7B
+
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
+
+TST.append(("""
 What is the price of a non-fat double cappuccino refill at Strada?
 <font size=-1><br>
 <br>$3.90
@@ -479,7 +505,7 @@ Answer: $3.25
     ))
 
 
-TST.append(("""
+VS.append(("""
     <Br><br>
 An overflow of tears, usually caused by insufficient drainage of the tear film
 from the eye.
@@ -501,6 +527,29 @@ Epiphora
 </font>
     """
     ))
+
+TST.append(("""
+    <Br>
+Double vision: name the only US President with consecutive double letters in
+both his first and last name. (e.g., Harry Potter)
+
+
+
+
+
+
+
+    """,
+    """
+
+Answer: Millard Fillmore, 13th POTUS and namesake of Fillmore Street in SF
+<font size=-3><br>
+<img height="200px" src="pictures/Fillmore.jpg">
+<br>
+</font>
+    """
+    ))
+
 TST.append(("""
     <Br>
 A psychosomatic illness that causes rapid heartbeat, dizziness, fainting,
@@ -542,9 +591,9 @@ Feminum!
 
 TST.append(("""
 
+<font size=-3>
 Former Secretary of Defense Robert McNamara attended Berkeley at
 the beginning of the Great Depression and it only cost him (per semester)
-<font size=-3><br>
 <br>
 A) $   26
 <br>B) $   52
@@ -571,15 +620,15 @@ A) $   26
     ))
 
 TST.append(("""
-    <Br><br><Br>
-
+<font size=-3>
+<br>
     This CIA run program ran from 1953-1973 and included experiments
     involving administration of LSD surreptitiously to, among others,
     unwitting members of the general public, some of whom were lured into
     would-be brothels in San
     Francisco.
 
-
+</font>
     """,
     """
     <Br><br><Br>
@@ -678,6 +727,31 @@ video?
 </font>
     """
     ))
+
+VS.append(("""
+    <Br><br><Br>
+
+<font size=-3><br>
+When centered on the fovea, a disk XX degrees in diameter will encompass roughly 47 percent of all cone photoreceptors in the human retina.
+<br>A) 5
+<br>B) 15
+<br>C) 35
+<br>D) 75
+
+</font>
+
+
+    """,
+    """
+    <Br><br><Br>
+Answer: D, see Figure 8 in Curcio et al, 1990
+<img src="pictures/47Percent.jpg">
+
+<br>
+</font>
+    """
+    ))
+
 
 VS.append(("""
     <Br>
@@ -784,14 +858,15 @@ Hint: screen resolution is 105 pix/cm
 
 
 VS.append(("""
-    <br><Br>
 What interesting ocular feature makes one of these animals different from the
 rest<br>
 
+<font size=-3>
 <br>Human
 <br>Ostrich
 <br>Whale
 <br>Tiger
+</font>
     """,
     """
     <Br><br><Br>
@@ -802,6 +877,8 @@ It's the only animal on the list whose eyeballs are bigger than its brain
 <br>
 </font>
     """))
+
+VS.pop()
 
 VS.append(("""
 <font size=-3><br>
@@ -878,7 +955,10 @@ How many PhD graduates total (VS + Opthalmic Optics)
 <br>
 </font>
     """))
-WS.append(("""
+VS.pop()
+
+
+VS.append(("""
     <Br><br><Br>
 Near-sighted model, Grace Robin was the first to show off what optical aid in 1930.
 
@@ -944,6 +1024,9 @@ The Alvarez Lens, which was used in the Humphrey Vision Analyzer.
 <img src="media/alvarez.png">
 </font>
     """))
+
+VS.pop()
+
 BL.append(( 
 """
     What was recently spotted and shot by police in the Gourmet Ghetto?
@@ -1515,9 +1598,23 @@ Rear Admiral Grace Murray Hopper (December 9, 1906 - January 1, 1992)
 <br>
 </font>
     """))
-WS.append(("""
+
+VS.append(("""
     <Br><br><Br>
-The first VS degree was awarded to Elwin Marg in 1950. Who was the first female to graduate with a VS PhD degree* from UC Berkeley? 
+The first Vision Science* PhD degree recipient 
+<font size=-3><br>
+(double points if you can tell me the year)<br><br>
+* The degree was called Physiological Optics at that time
+</font>
+    """,
+    """
+    <Br><br><Br>
+Elwin Marg in 1950.
+   <br>
+    """))
+
+VS.append(("""
+Who was the first female to graduate with a VS PhD degree* from UC Berkeley? 
 <font size=-3><br>
 (double points if you can tell me the year)<br><br>
 * The degree was called Physiological Optics at that time
@@ -1539,6 +1636,7 @@ Chair: Flom
     </font>
 
     """))
+VS.pop()
 
 WS.append(("""
     <Br><br><Br>
@@ -1794,7 +1892,7 @@ To what movie franchise does this refer:
     """))
 
 
-PP.append(("""
+TST.append(("""
     <Br><br><Br>
 "Gentlemen, you can't fight in here! This is the War Room!" 
     Name the movie 
@@ -1908,6 +2006,46 @@ Magnitude 6.7+ earthquake
 <br>
 </font>
     """))
+TST.append(("""
+    <Br><br><Br>
+Convert the binary number 1111011 to decimal
+
+
+
+    """,
+    """
+    <Br><br><Br>
+Answer: 123
+
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
+TST.append(("""
+What number is represented here on this Japanese Abacus?
+<br><img height="200px" src="pictures/Abacus.jpg">
+
+
+
+
+
+
+
+
+    """,
+    """
+    <Br><br><Br>
+
+Answer: 851,531
+<font size=-3><br>
+<img height="200px" src="pictures/Abacus.jpg">
+<br>
+</font>
+    """
+    ))
+
 q["Vision Science"]=VS
 q["Women in Science"]=WS
 q[ "General Science"]=GS
@@ -1924,6 +2062,7 @@ catnames =  ["Vision Science","Women in Science", "General Science",
 
 catnames =  [ 'Potpourri!' , "Bay Area", "UC Berkeley", "General Science",
 "Vision Science"]
+catnames.reverse()
          
 
 
