@@ -229,7 +229,7 @@ class MyWindow(wx.Panel):
         self.text.SetLabel("")
         dlg = Question(self.name, self.idx)
         # XXX: take the next line out after done testing questions
-        dlg.test()
+        #dlg.test()
         dlg.ShowModal()
         dlg.Destroy()  
         #sizeT = (640,480)

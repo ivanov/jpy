@@ -5,6 +5,19 @@ q =  questions
 
 VS = []
 GS = []
+GS.append(("""
+    <Br><br><Br>
+
+    JEOPARDY!
+
+
+    """,
+    """
+    <Br><br><Br>
+    Correct!
+<font size=-3><br>
+</font>
+    """))
 WS = []
 AS = []
 UC = []
@@ -14,8 +27,255 @@ TST= []
 BA = []
 
 
-
 TST.append(("""
+    <Br><br><Br>
+
+
+    """,
+    """
+    <Br><br><Br>
+
+<font size=-3><br>
+<img height="200px" src="pictures/Bliss.jpg">
+<br>
+</font>
+    """
+    ))
+
+
+
+UC.append(("""
+    What do you call the line that runs perpendicular to the 50 yard line at
+    California’s Memorial Stadium?
+
+
+
+
+
+
+
+
+    """,
+    """
+    <Br>
+    The Hayward Fault line
+
+<font size=-3><br>
+<img height="200px" src="pictures/HaywardFault.jpg">
+<br>
+</font>
+    """
+    ))
+
+BA.append(("""
+Which of the following American Viticultural Areas (AVA) is not
+within Napa county?
+<font size=-3>
+<br>Rutherford
+<br>Suisun
+<br>Napa
+<br>Oakville
+<br>Yountville
+<br>St Helena
+</font><br>
+
+
+    """,
+    """
+    <Br><br><Br>
+Answer: Suisun Valley
+is in Solano County
+
+
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
+BA.append(("""
+
+What do all these names have in common?
+<br><br>Hefeweizen
+<br>Apricot
+<br>ThunderHead
+<br>Outburst
+<br>Wheaten IPA
+
+
+    """,
+    """
+    <Br><br><Br>
+Answer: They’re all from Pyramid Breweries 
+
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
+
+BA.append(("""
+   
+
+Which African animal was the SF 49er’s unofficial mascot in 2011
+<br>
+<br>Wildebeest
+<br>Meerkat
+<br>Rhinoceros
+<br>Honeybadger
+
+
+    """,
+    """
+    <Br><br><Br>
+The Honeybadger
+
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
+
+GS.append(("""
+What is the common name for this molecule?
+<font size=-3><br>
+<img height="200px" src="pictures/Caffiene.jpg">
+<br>
+<br>A) Caffeine
+<br>B) Nicotine
+<br>C) Tetrahydrocannabinol
+<br>D) Methamphetamine
+</font>
+
+
+
+    """,
+    """
+    <Br><br><Br>
+
+
+Answer: Caffeine
+
+<font size=-3><br>
+<img height="200px" src="pictures/Caffiene.jpg">
+<br>
+</font>
+
+    """
+    ))
+GS.append(("""
+    <Br><br><Br>
+
+    How many neurons are there in the average adult human brain? 
+<br>    
+    (+/- 10
+    billion is OK)
+
+
+    """,
+    """
+
+    <Br><br><Br>
+    ~ 86 Billion: 
+    <br>
+<font size=-3><br>
+    Herculano-Houzel, S., Lent, R. "Isotropic fractionator: A simple, rapid
+    method for the quantification of total cell and neuron numbers in the
+    brain" J.Neuroscience. 25, 2518-2521. (2005).
+
+
+<br>
+</font>
+    """
+    ))
+GS.append(("""
+    <Br><br><Br>
+How many bones are there in the adult human body?
+
+
+    """,
+    """
+    <Br><br><Br>
+Answer: 206
+
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
+GS.append(("""
+    <Br><br><Br>
+What was the first neurotransmitter ever discovered?
+
+    """,
+    """
+    <Br><br><Br>
+    Acytelcholine (ACh)
+
+<font size=-3><br>
+
+(thanks, Sahar!)
+<br>
+</font>
+    """
+    ))
+
+
+
+BA.append(("""
+
+What do these buildings have in common?
+<img height="200px" src="pictures/BerkeleyCityClub.jpg">
+<img height="200px" src="pictures/HearstGym.jpg">
+<img height="200px" src="pictures/HearstCastle.jpg">
+<img height="200px" src="pictures/JuliaMorganHouse.jpg">
+
+
+
+
+
+
+
+
+    """,
+    """
+    <Br><br><Br>
+All were designed by Julia Morga
+
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
+
+BL.append(("""
+What do these 6 local eateries all have in common?
+<font size=-3><br>
+<br>La Trattoria Siciliana 2993 College Ave
+<br>Cream 2993 College Ave
+<br>Jayakarta 2026 University Ave
+<br>Emilia’s Pizzeria 2995 Shattuck
+<br>Plearn Thai Kitchen 2283 Shattuck Ave
+</font>
+
+    """,
+    """
+    <Br><br><Br>
+
+They only take cash $$$$$
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
+
+
+BA.append(("""
     <Br>
 What is the color of the Golden Gate Bridge?
 <img height="200px" src="media/ggb.jpg">
@@ -32,20 +292,6 @@ International Orange
     """
     ))
 
-TST.append(("""
-    <Br><br><Br>
-
-
-    """,
-    """
-    <Br><br><Br>
-
-<font size=-3><br>
-<img height="200px" src="pictures/Bliss.jpg">
-<br>
-</font>
-    """
-    ))
 
 BA.append(("""
 <img height="200px" src="pictures/Bliss.jpg">
@@ -106,20 +352,6 @@ BA.append(("""
     """
     ))
 
-TST.append(("""
-    <Br><br><Br>
-
-
-    """,
-    """
-    <Br><br><Br>
-
-<font size=-3><br>
-<img height="200px" src="pictures/Bliss.jpg">
-<br>
-</font>
-    """
-    ))
 
 PP.append(("""
     <Br>
@@ -188,16 +420,17 @@ alive right now?
 </font>
     """
     ))
+
+
 GS.append(("""
-    <Br><br><Br>
-What is the fraction of microbial cells in a human body to those that contain
-human DNA?
 <font size=-1><br>
+What is the fraction of microbial cells in a human body to those that contain
+human DNA?<br>
 <br>0.02
 <br>2
 <br>20
 <br>200
-
+</font>
     """,
     """
     <Br><br><Br>
@@ -360,7 +593,8 @@ involving brothels was called "Operation Midnight Climax".
 
     bonus Berkeley connection:
 <br>
-Ted "The Unabomber" Kaczynski was a test subject for MK-ULTRA
+Ted "The Unabomber" Kaczynski was a test subject for MK-ULTRA during his days
+at Harvard.
 
 
 <br>
@@ -428,6 +662,22 @@ Hermann von Helmholtz
 <br>
 </font>
     """))
+
+VS.append(("""
+    <Br><br><Br>
+What time is it on Will Tuten’s clock in the Viral Sensation Vision Science
+video?
+
+    """,
+    """
+    <Br><br><Br>
+11:02
+<font size=-3><br>
+<img height="200px" src="pictures/TutenClock.jpg">
+<br>
+</font>
+    """
+    ))
 
 
 VS.append(("""
@@ -578,7 +828,6 @@ How many PhD graduates total (VS + Opthalmic Optics)
 <font size=-3><br>
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
 WS.append(("""
@@ -625,7 +874,6 @@ Name the current VS faculty who got their PhD in the Vision Science program?
 <font size=-3><br>
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
 VS.append(("""
@@ -706,8 +954,7 @@ Went on to be a Hall of Fame Quarterback for the Denver Broncos
 
 """))
 
-UC.append(("""
-What is the oldest building on the Berkeley Campus?
+"""What is the oldest building on the Berkeley Campus?
 <br>
 <ol>
 <li>South Hall
@@ -715,7 +962,12 @@ What is the oldest building on the Berkeley Campus?
 <li>Senior Mens Hall (the log cabin)
 <li>Hearst Mining Building
 </ol>
+"""
+
+UC.append(("""
+Which building in this picture is still standing, and what is its name? 
     
+<img src="pictures/SouthHall.jpg">
     ""","""
     South Hall
     <br>
@@ -726,7 +978,9 @@ What is the oldest building on the Berkeley Campus?
 Built in 1873, South Hall is one of the few original buildings still standing
 on the Berkeley campus 
 <br>
-<table>
+    """))
+
+"""<table>
 <tr>
 <td>
 <center>
@@ -752,8 +1006,7 @@ Capanile<br>1914
 </tr>
 </table>
 </font>
-    """))
-
+"""
 UC.append(("""
         Who does the UC Basketball player with the biggest feet give his shoes
         to every year?
@@ -766,6 +1019,7 @@ UC.append(("""
     <img src="media/oski.png"> <br>
         """
         ))
+
 UC.append(("""<br><br>
     Who was the highest paid UC Employee in 2009, and estimate his/her salary
     to within $500,000?
@@ -780,6 +1034,8 @@ UC.append(("""<br><br>
 
     """
     ))
+
+UC.pop() # exclude question
 UC.append(("""
      <font size=-2>Which of these characters was never a regular on the Berkeley Campus?
      </font>
@@ -788,24 +1044,24 @@ UC.append(("""
      <tr>
      <td>
      <center>
-    <img src="media/stoneyburke.png"> <br>
+    <img src="pictures/HappyHappyHappyGuy.jpg"> <br>
     </center>
     </td>
     <td>
      <center>
-    <img src="media/notberkeley.png"> <br>
+    <img src="pictures/HateMan.jpg"> <br>
     </center>
     </td>
     </tr>
     <tr>
     <td>
      <center>
-    <img src="media/pinkguy.png"> <br>
+    <img src="pictures/OneManBandGuy.jpg"> <br>
     </center>
     </td>
     <td>
     <center>
-    <img src="media/nakedguy.png"> <br>
+    <img src="pictures/Yoshua.jpg"> <br>
     </center>
     </td>
     </tr>
@@ -814,22 +1070,90 @@ UC.append(("""
     """,
 
     """
-    <br><br><br>
-    <img src="media/notberkeley.png"> <br>
+    <br>One Man Band Guy:
+        is often seen on Harvard Campus<br>
+    <img src="pictures/OneManBandGuy.jpg"> <br>
 
+    """
+    ))
+UC.append(("""
+    <Br>
+ What two Berkeley students (one graduated in 2005, one signed in 2012)
+together have 17 olympic medals to their credit?
+
+    """,
+    """
+    <Br><br><Br>
+Answer: Natalie Coughlin (12) and Missy Franklin (5)
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
+UC.append(("""
+    <Br><br><Br>
+What was Cal Football’s overall win-loss record in 2012?
+
+    """,
+    """
+    <Br><br><Br>
+    3-9
+
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
+UC.append(("""
+
+Which one of these do not belong to this list (and why)?
+<font size=-3><br>
+<br>Julia Morgan
+<br>Bernard Maybeck
+<br>John Galen Howard
+<br>William Wurster
+<br>Frank Gehry
+</font>
+
+    """,
+    """
+    <Br><br><Br>
+Gehry is the only architect who did not design a building on UC Berkeley Campus
+
+    """
+    ))
+
+
+UC.append(("""
+    <Br><br><Br>
+
+Name the last three Berkeley Nobel Laureates
+
+    """,
+    """
+<font size=-3><br>
+<br>2011 - Saul Perlmutter (Physics) 
+<br>2009 - Oliver E. Williamson (Economics) 
+<br>2006 - George F. Smoot (Physics)
+
+<br>
+</font>
     """
     ))
 
 UC.append(("""
     How tall is the Sather Tower, aka the Campanile, and how does it rank among
     other bell towers in the world?
-
+ <font size=-3>
 <ol>
 <li>507 ft; #1
 <li>450 ft; #5
-<li>307 ft; #3
+<li>309 ft; #3
 <li>298 ft; #2
 </ol>
+ </font>
     """,
     """
 <table>
@@ -839,10 +1163,12 @@ UC.append(("""
 </td>
 <td>
 <br><br>
+<font size=-3><br>
 Sather tower<br>
 Designed by John Galen Howard<br>
 309 ft<br>
 3rd tallest bell tower in the world<br>
+</font><br>
 </td>
 </tr>
 </table>
@@ -861,7 +1187,6 @@ Right before he died*"Samuel Langhorne Clemens"* better know by his pen         
 <font size=-3><br>
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
 UC.append(("""
@@ -901,8 +1226,10 @@ UC.append(("""
 
     """
     ))
-BL.append(("""What do these local eateries have in common?
-<font color='white' size=-1>
+
+BA.append(("""What do these local eateries have in common?
+<font color='white' size=-3>
+
 <ol>
 <li> Jojos
 <li>Pizzaiolo
@@ -913,6 +1240,7 @@ BL.append(("""What do these local eateries have in common?
 </ol>
 </font>
 """ ,"""They are all spinoffs of Chez Panisse
+<br>
 <img src="media/chezpanisse.png">""")
 )
 
@@ -972,8 +1300,8 @@ UC.append(
    ))
 
 
-BL.append(("""
-    <Br><br><Br>
+BA.append(("""
+    <Br>
 For a student, what's the cheapest way to get to San Francisco from campus using public transportation?
 
     """,
@@ -983,10 +1311,9 @@ AC Transit  F route (free with Class-Pass sticker)
 <font size=-3><br>
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
-BL.append(( """
+BA.append(( """
         Where is it considered fashionable to wait in line for 20 minutes to buy a slice of pizza and enjoy it with a hefty side of exhaust fumes?
 
    """,
@@ -997,7 +1324,7 @@ BL.append(( """
    
    ))
 
-BL.append(("""
+BA.append(("""
     <Br><br><Br>
 Caffe Med is known as the birthplace of what popular coffee drink? 
 
@@ -1010,7 +1337,7 @@ Caffe Med is known as the birthplace of what popular coffee drink?
 </font>
     """))
 
-BL.append(("""
+BA.append(("""
     <Br>
 
 Which of these bands did not start out at 924 Gilman (which was founded in 1986 as an all-ages, non-profit, collectively organized music club)  
@@ -1027,7 +1354,6 @@ Which of these bands did not start out at 924 Gilman (which was founded in 1986 
 <font size=-3><br>
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
 
@@ -1107,11 +1433,10 @@ UC.append(("""
 <font size=-3><br>
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
 
-WS.append(("""
+GS.append(("""
     <Br><br><Br>
 The ratio of male:female Nobel Prize winners from inception to 2009 is:
 <br>a) 36  : 1
@@ -1189,19 +1514,6 @@ Name the female astronaut who just returned from the International Space Station
 
 GS.append(("""
     <Br><br><Br>
-
-    JEOPARDY!
-
-
-    """,
-    """
-    <Br><br><Br>
-    Correct!
-<font size=-3><br>
-</font>
-    """))
-GS.append(("""
-    <Br><br><Br>
     Who's the author of this widely repeated quote: "If I have seen
     further it is by standing on the shoulders of Giants."
 
@@ -1213,7 +1525,6 @@ GS.append(("""
 <font size=-3><br>
 in: Letter to Robert Hooke, February 5, 1675/1676
 <br>
-<img src="media/someting.png">
 </font>
     """))
 
@@ -1230,7 +1541,6 @@ GS.append(("""
 <font size=-3><br>
 (exactly the same)
 <br>
-<img src="media/someting.png">
 </font>
     """))
 
@@ -1261,7 +1571,6 @@ Name the animal whose tusk, protruding from its upper jaw, can equal 75% of     
 <font size=-3><br>
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
 
@@ -1286,7 +1595,6 @@ Nikola Tesla
 <font size=-3><br>
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
 AS.append(("""
@@ -1450,7 +1758,6 @@ Dr. Strangelove
 <font size=-3><br>
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
 
@@ -1494,7 +1801,6 @@ plagarized by a character playing a union head in what scifi show?
 Burdens, Part II")
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
 
@@ -1510,7 +1816,6 @@ Venus.
 <font size=-3><br>
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
 
@@ -1524,7 +1829,6 @@ What current television show claims you can reconstruct image the optic nerve
 <font size=-3><br>
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
 
@@ -1540,11 +1844,10 @@ Where is this quote from, "Strange women lying in ponds distributing swords     
 <font size=-3><br>
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
 
-PP.append(("""
+BA.append(("""
     <Br><br><Br>
 
 In the Bay Area, what has a 63% chance of occuring before 2036 - be specific?
@@ -1555,7 +1858,6 @@ Magnitude 6.7+ earthquake
 <font size=-3><br>
 
 <br>
-<img src="media/someting.png">
 </font>
     """))
 q["Vision Science"]=VS
@@ -1564,6 +1866,7 @@ q[ "General Science"]=GS
 q[ "'Almost' Science"]=AS
 q[ "UC Berkeley"]=UC
 q[ "Berkeley Life"]=BL
+q[ "Bay Area"]=BA
 q[ "Potpourri!"]=PP
 q[ "Potpourri!"]=TST
 
@@ -1571,7 +1874,8 @@ q[ "Potpourri!"]=TST
 catnames =  ["Vision Science","Women in Science", "General Science", 
          "'Almost' Science","UC Berkeley", "Berkeley Life", "Potpourri!",]
 
-catnames =  [ 'Potpourri!' ]
+catnames =  [ 'Potpourri!' , "Bay Area", "UC Berkeley", "General Science",
+"Vision Science"]
          
 
 
