@@ -9,8 +9,139 @@ AS = []
 UC = []
 BL = []
 PP = []
+TST= []
+
+TST.append(("""
+    <Br>
+A psychosomatic illness that causes rapid heartbeat, dizziness, fainting,
+confusion and even hallucinations when an individual is exposed to art...
+
+    """,
+    """Stendhal's syndrome, hyperkulturemia, or Florence syndrome
+<font size=-3><br>
+<img height="200px" src="media/Transverselline1923.jpg">
+<br>
+
+... usually when the art is particularly beautiful or a large amount of art is in
+a single place. 
+<br>
+</font>
+    """
+    ))
+
+TST.append(("""
+    <Br><br><Br>
+Rare metal used to make <br>Wonder Woman's bracelets
+
+    """,
+    """
+    <Br><br><Br>
+Feminum!
+<font size=-3><br>
+<img height="200px" src="media/metal_feminum.jpg">
+<br>
+<br>
+
+<br>
 
 
+<br>
+</font>
+    """
+    ))
+
+TST.append(("""
+
+Former Secretary of Defense Robert McNamara attended Berkeley at
+the beginning of the Great Depression and it only cost him (per semester)
+<font size=-3><br>
+<br>
+A) $   26
+<br>B) $   52
+<br>C) $  104
+<br>D) $  260
+<br>E) $  520
+<br>F) $ 1040
+</font>
+    """,
+    """
+    <Br><br><Br>
+
+    $52!!!
+<font size=-3><br>
+<br>
+<br>
+
+<br>
+
+
+<br>
+</font>
+    """
+    ))
+
+TST.append(("""
+    <Br><br><Br>
+
+    This CIA run program ran from 1953-1973 and included experiments
+    involving administration of LSD surreptitiously to, among others,
+    unwitting members of the general public, some of whom were lured into
+    would-be brothels in San
+    Francisco.
+
+
+    """,
+    """
+    <Br><br><Br>
+MK-ULTRA.
+
+<font size=-3><br>
+From the "can't make this stuff up" department, the SF-based research
+involving brothels was called "Operation Midnight Climax".
+<br>
+<br>
+
+    bonus Berkeley connection:
+<br>
+Ted "The Unabomber" Kaczynski was a test subject for MK-ULTRA
+
+
+<br>
+</font>
+    """
+    ))
+
+
+TST.append(("""
+    <Br><br><Br>
+    Name the James Bond movies with "eye" in the titles...
+    """,
+    """
+    <Br><br><Br>
+For Your Eyes Only and GoldenEye
+
+<img height="50%" src="media/for-your-eyes-only.jpeg">
+<img height="200px" src="media/ge.jpg">
+
+<font size=-3><br>
+
+<br>
+</font>
+    """
+   
+    """<Br>
+bonus puns:
+<br>"D<i>ie</i>monds Are Forever" 
+<br>"Live and Let D<i>ie</i>"                                                                                          
+<br>"Tomorrow Never D<i>ie</i>s" 
+<br>"D<i>ie</i> Another Day" 
+<br>"Sk<i>y</i>fall"   
+<font size=-3><br>
+
+<br>
+</font>
+"""
+    ))
 
 VS.append(("""
     <Br><br><Br>
@@ -1182,10 +1313,15 @@ q[ "'Almost' Science"]=AS
 q[ "UC Berkeley"]=UC
 q[ "Berkeley Life"]=BL
 q[ "Potpourri!"]=PP
+q[ "Potpourri!"]=TST
 
 # the dictionary's not ordered, so we'll just rearrange how we want things here
 catnames =  ["Vision Science","Women in Science", "General Science", 
          "'Almost' Science","UC Berkeley", "Berkeley Life", "Potpourri!",]
+
+catnames =  [ 'Potpourri!' ]
+         
+
 
 
 questions[''] = ["no category specified"]

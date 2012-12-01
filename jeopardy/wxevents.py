@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # focusevent.py
 
@@ -55,7 +55,8 @@ class Question(wx.Dialog):
     def __init__(self, pool='',idx=0, qa=0):
         wx.Dialog.__init__(self, None, -1, "About <<project>>",
             style=wx.DEFAULT_DIALOG_STYLE|wx.THICK_FRAME|wx.RESIZE_BORDER|
-                wx.TAB_TRAVERSAL|wx.ALIGN_CENTER|wx.ALIGN_CENTER_VERTICAL,)
+                wx.TAB_TRAVERSAL|wx.ALIGN_CENTER|wx.ALIGN_CENTER_VERTICAL,
+                size=wx.DisplaySize())
         hwin = HtmlWindow(self, -1, size=(400,200))
         hwin.SetFonts( '','',range(30,90,9))
         vers = {}
@@ -86,6 +87,15 @@ class Question(wx.Dialog):
         self.hwin = hwin
         self.hwin.Bind(wx.EVT_CHAR, self.OnKeyDown)
         #self.Bind(wx.EVT_PAINT, self.OnPaint)
+
+    def test(self):
+        dlg = Question(self.pool, self.idx, 1)
+        dlg.ShowModal()
+        dlg.Destroy()  
+        if len(questions[self.pool][self.idx]) > 2:
+            dispatch = questions[self.pool][self.idx][2]
+            if evt.GetKeyCode() in dispatch:
+                dispatch[evt.GetKeyCode()]()
 
     def OnKeyDown(self, evt):
         if evt.GetKeyCode() == 121: #go to the answer ('y' pressed)
@@ -166,12 +176,14 @@ class MyWindow(wx.Panel):
     def OnKeyDown(self, evt):
         if evt.GetKeyCode() == 121: #go to the answer ('y' pressed) 
             subprocess.Popen(["mplayer","media/elevatording.wav"])
-        elif evt.GetKeyCode() == 110: #go to the answer ('y' pressed) 
+        elif evt.GetKeyCode() == 110: #wrong answer ('n' pressed) 
             subprocess.call(["mplayer","media/buzzerheavy.wav"])
-        elif evt.GetKeyCode() == 108: #go to the answer ('y' pressed) 
+        elif evt.GetKeyCode() == 108: # make a canned laugh ('l' pressed) 
             subprocess.call(["mplayer","media/cannedlaugh.mp3"])
-        elif evt.GetKeyCode() == 106: #go to the answer ('y' pressed) 
-            subprocess.call(["mplayer","media/jeopardymusic.flv"])
+        elif evt.GetKeyCode() == 106: # play jeopardy music ('j' pressed) 
+            subprocess.call(["mplayer","media/jeopardymusic.flv",])
+        elif evt.GetKeyCode() == 'r' : # reload everything
+            FocusEvent(None, -1, 'focus event')
     def showPoints(self,evt):
         self.text.SetLabel(str((self.idx+1)*100))
 
@@ -216,6 +228,8 @@ class MyWindow(wx.Panel):
         self.color = '#FF0000'
         self.text.SetLabel("")
         dlg = Question(self.name, self.idx)
+        # XXX: take the next line out after done testing questions
+        dlg.test()
         dlg.ShowModal()
         dlg.Destroy()  
         #sizeT = (640,480)
