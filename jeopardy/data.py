@@ -1,3 +1,4 @@
+# -*- coding: utf8 -*-
 import subprocess
 questions = {}
 q =  questions
@@ -10,21 +11,206 @@ UC = []
 BL = []
 PP = []
 TST= []
+BA = []
 
+
+TST.append(("""
+    <Br><br><Br>
+    If you took the picture today, what would the hills be covered with?
+    <br>Grapevines
+    <br>Houses
+    <br>Sheep
+    <br>Parking lots
+<img height="200px" src="pictures/Bliss.jpg">
+
+
+    """,
+    """
+    <Br><br><Br>
+
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
+
+BS.append(("""
+Where was this picture taken and what is it used for?
+<img height="200px" src="pictures/Bliss.jpg">
+
+    """,
+    """
+    <Br><br><Br>
+Bliss, the default Windows XP wallpaper taken in Napa county, in 1996
+<font size=-3><br>
+
+
+</font>
+    """
+    ))
+
+PP.append(("""
+    <Br>
+What do these three school names have in common?
+<br><br>Trent
+<br>Queens
+<br>York
+
+    """,
+    """
+    <Br><br><Br>
+There are the names of Universities in Canada <i>AND</i> the UK. 
+<font size=-3><br>
+<br>
+<br>
+
+</font>
+    """
+    ))
+
+PP.append(("""
+What animal is responsible for the most human deaths per year?
+<br>
+<br>Mosquito
+<br>Shark
+<br>Tse-tse Fly
+<br>Killer Bunny
+
+    """,
+    """
+    <Br><br><Br>
+Mosquito
+
+<font size=-3><br>
+<br>
+<br>
+
+<br>
+
+
+<br>
+</font>
+    """
+    ))
+
+PP.append(("""
+What percentage of the total number of humans that ever lived on this earth is
+alive right now? 
+<font size=-3>
+<br>0.1%
+<br>1%
+<br>5%
+<br>10%
+<br>20%
+</font>
+
+    """,
+    """
+    <Br><br><Br>
+<font size=+3><br>
+10%
+<br>
+
+
+<br>
+</font>
+    """
+    ))
+GS.append(("""
+    <Br><br><Br>
+What is the fraction of microbial cells in a human body to those that contain
+human DNA?
+<font size=-1><br>
+<br>0.02
+<br>2
+<br>20
+<br>200
+
+    """,
+    """
+    <Br><br><Br>
+    20
+
+<font size=-3><br>
+    There are more microbial cells in your body than cells that have your own
+    DNA. As NPR's Robert Krulwich reported in 2006, the human body has 20
+    times more microbes than cells! I guess that pretty well justifies the
+    “Imperial We.”
+<br>
+<br>
+
+<br>
+
+
+<br>
+</font>
+    """
+    ))
+
+TST.append(("""
+What is the price of a non-fat double cappuccino refill at Strada?
+<font size=-1><br>
+<br>$3.90
+<br>$2.75
+<br>$4.25
+<br>$3.25
+</font>
+
+
+    """,
+    """
+    <Br><br><Br>
+Answer: $3.25
+<font size=-3><br>
+<br>
+<br>
+
+<br>
+
+
+<br>
+</font>
+    """
+    ))
+
+
+TST.append(("""
+    <Br><br>
+An overflow of tears, usually caused by insufficient drainage of the tear film
+from the eye.
+
+    """,
+    """
+    <Br><br><Br>
+Epiphora
+<font size=-3><br>
+
+(go cry about it, if you didn't get this one!)
+<br>
+<br>
+
+<br>
+
+
+<br>
+</font>
+    """
+    ))
 TST.append(("""
     <Br>
 A psychosomatic illness that causes rapid heartbeat, dizziness, fainting,
 confusion and even hallucinations when an individual is exposed to art...
 
     """,
-    """Stendhal's syndrome, hyperkulturemia, or Florence syndrome
+    """Stendhal's syndrome
 <font size=-3><br>
 <img height="200px" src="media/Transverselline1923.jpg">
 <br>
-
+(A.K.A. hyperkulturemia, or Florence syndrome)
+<br>
 ... usually when the art is particularly beautiful or a large amount of art is in
 a single place. 
-<br>
 </font>
     """
     ))
@@ -117,15 +303,10 @@ TST.append(("""
     Name the James Bond movies with "eye" in the titles...
     """,
     """
-    <Br><br><Br>
-For Your Eyes Only and GoldenEye
-
 <img height="50%" src="media/for-your-eyes-only.jpeg">
 <img height="200px" src="media/ge.jpg">
 
 <font size=-3><br>
-
-<br>
 </font>
     """
    
