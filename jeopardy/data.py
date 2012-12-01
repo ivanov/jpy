@@ -14,19 +14,17 @@ TST= []
 BA = []
 
 
-TST.append(("""
-    <Br><br><Br>
-    If you took the picture today, what would the hills be covered with?
-    <br>Grapevines
-    <br>Houses
-    <br>Sheep
-    <br>Parking lots
-<img height="200px" src="pictures/Bliss.jpg">
 
+TST.append(("""
+    <Br>
+What is the color of the Golden Gate Bridge?
+<img height="200px" src="media/ggb.jpg">
 
     """,
     """
     <Br><br><Br>
+International Orange
+<img height="200px" src="media/ggb.jpg">
 
 <font size=-3><br>
 <br>
@@ -34,10 +32,24 @@ TST.append(("""
     """
     ))
 
+TST.append(("""
+    <Br><br><Br>
 
-BS.append(("""
-Where was this picture taken and what is it used for?
+
+    """,
+    """
+    <Br><br><Br>
+
+<font size=-3><br>
 <img height="200px" src="pictures/Bliss.jpg">
+<br>
+</font>
+    """
+    ))
+
+BA.append(("""
+<img height="200px" src="pictures/Bliss.jpg">
+Where was this picture taken and what is it used for?
 
     """,
     """
@@ -46,6 +58,65 @@ Bliss, the default Windows XP wallpaper taken in Napa county, in 1996
 <font size=-3><br>
 
 
+</font>
+    """
+    ))
+
+BA.append(("""
+<img height="200px" src="pictures/Bliss.jpg">
+What is the name of this background in the Netherlands version of Microsoft office?
+<font size=-3><br>
+
+
+<br>Gelukzaligheid
+<br>Ireland
+<br>Groene Heuvel
+<br>California Dreaming
+
+</font>
+
+    """,
+    """
+    <Br><br><Br>
+Ireland
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
+BA.append(("""
+<img height="200px" src="pictures/Bliss.jpg">
+    If you took the picture today, what would the hills be covered with?
+<font size=-3><br>
+    <br>Grapevines
+    <br>Houses
+    <br>Sheep
+    <br>Parking lot
+<br>
+</font>
+
+
+    """,
+    """
+<img height="200px" src="pictures/PostBliss.jpg">
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
+TST.append(("""
+    <Br><br><Br>
+
+
+    """,
+    """
+    <Br><br><Br>
+
+<font size=-3><br>
+<img height="200px" src="pictures/Bliss.jpg">
+<br>
 </font>
     """
     ))
