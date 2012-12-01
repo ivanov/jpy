@@ -670,10 +670,29 @@ video?
 
     """,
     """
-    <Br><br><Br>
+    <Br>
 11:02
 <font size=-3><br>
 <img height="200px" src="pictures/TutenClock.jpg">
+<br>
+</font>
+    """
+    ))
+
+VS.append(("""
+    <Br>
+
+Name  five current VS faculty who used to work at the University of Houston College of Optometry
+
+    """,
+    """
+    <Br>
+<br>Gerald Westheimer
+<br>Stan Klein
+<br>Dennis Levi
+<br>Austin Roorda
+<br>Susana Chung
+<font size=-3><br>
 <br>
 </font>
     """
@@ -715,6 +734,22 @@ VS.append(("""
 </font>
     """))
 
+VS.append(("""
+    <Br><br><Br>
+Where will the ARVO annual meeting be held in the next four years? 
+
+
+    """,
+    """
+    <Br><br><Br>
+Seattle (2013), Orlando (2014), Denver (2015), Seattle (2016)
+
+<font size=-3><br>
+<br>
+</font>
+    """
+    ))
+
 
 VS.append(("""
     <Br><br><Br>
@@ -730,6 +765,22 @@ Name the former Berkeley Vision Science Professor who was the great grandson of 
 <img src="media/barlow.png">
 </font>
     """))
+VS.append(("""
+<br>
+What is the pixels per degree of the IPad4 ‘retina display’ when held at 38 cm viewing distance?
+<font size=-3><br>
+Hint: screen resolution is 105 pix/cm
+</font>
+
+
+    """,
+    """
+    <Br><br><Br>
+ 69.5
+
+<br>
+    """
+    ))
 
 
 VS.append(("""
@@ -751,6 +802,37 @@ It's the only animal on the list whose eyeballs are bigger than its brain
 <br>
 </font>
     """))
+
+VS.append(("""
+<font size=-3><br>
+Known for their role in regulating the body’s circadian rhythm, these cells make up about “1 percent” of the total number of ganglion cells in the retina.
+<br>
+
+<img height="200px" src="pictures/1Percent.jpg">
+
+
+<br>
+</font>
+    """,
+    """
+<img height="200px" src="pictures/1Percent.jpg">
+<br>
+
+
+
+Intrinsically photosensitive retinal ganglion cells 
+<br>
+<font size=-3><br>
+(ipRGCs, AKA melanopsin-containing ganglion cells)
+
+
+<br>
+</font>
+    """
+    ))
+
+
+
 VS.append(("""
     <Br><br><Br>
 Which nonextinct animal has the largest eyeballs?
@@ -763,40 +845,6 @@ Which nonextinct animal has the largest eyeballs?
 </font>
     """))
 
-VS.append(("""
-    <Br><br><Br>
-Which of these famous people was not an ophthalmologist?
-<font size=-3><br>
-<br>Sir Arthur Conan Doyle : inventor of Sherlock Holmes
-<br>Thomas Young: say no more
-<br>Rand Paul, Republican Senate Nominee in Kentucky
-<br>Roberta Bondar, Astronaut
-<br>Socrates: Brazilian Football Star
-</font>
-    """,
-    """
-    Rand Paul
-    </center>
-<font color='white' size=-3><br>
-Over the weekend, the Courier-Journal in Louisville reported that Dr. Rand
-Paul, the Republican Senate nominee in Kentucky, is not a "board-certified"
-ophthalmologist according to the national clearinghouse for such
-certifications. 
-
-<br><br>Now Paul is explaining his decision to let his recognized certification lapse
-as resulting from "the kind of hypocritical power play that I despise and have
-always fought against."
-
-<br><br>First some background: Paul's claim that he is a "board-certified" ophthalmologist is tied to his certification by the National Board of Ophthalmology. 
-
-<br><br>Yet that's a group that Paul himself founded in 1999; he also serves as its head. 
-
-<br><br>The organization that works with the American Medical Association to approve specialty boards of this nature, as the Courier-Journal notes, is called the American Board of Medical Specialties. And it does not recognize Paul's group
-
-<br>
-</font>
-    <center>
-    """))
 
 VS.append(("""
     <Br><br><Br>
