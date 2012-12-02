@@ -807,6 +807,7 @@ VS.append(("""
 <br>
 </font>
     """))
+VS.pop()
 
 VS.append(("""
     <Br><br><Br>
@@ -969,7 +970,7 @@ Contact lenses
 <font size=-3><br>$25 a piece<br> ($50 a pair - the equivalent of $647 today) 
 
 <br>
-<img src="media/contactlenses1930.png">
+<img src="media/contactlenses1930.jpg">
 </font>
     """))
 
