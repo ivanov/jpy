@@ -967,7 +967,7 @@ Near-sighted model, Grace Robin was the first to show off what optical aid in 19
     """
     <Br><br><Br>
 Contact lenses 
-<font size=-3><br>$25 a piece<br> ($50 a pair - the equivalent of $647 today) 
+<font size=-3><br>$25 a piece<br> ($50 a pair - the equivalent of $647 in 2010) 
 
 <br>
 <img src="media/contactlenses1930.jpg">
@@ -1613,6 +1613,7 @@ The first Vision Science* PhD degree recipient
 Elwin Marg in 1950.
    <br>
     """))
+VS.pop()
 
 VS.append(("""
 Who was the first female to graduate with a VS PhD degree* from UC Berkeley? 
@@ -1908,6 +1909,26 @@ Dr. Strangelove
 </font>
     """))
 
+VS.append(("""
+    <Br>
+<font size=-3><br>
+Complex and vivid hallucinations, often taking human form, are a hallmark of
+what condition in patients with visual loss?<br>
+</font>
+
+<img height="200px" src="pictures/Eastwood.jpg">
+
+
+
+
+
+    """,
+    """
+    <Br><br><Br>
+Answer: Charles Bonnet Syndrome
+
+    """
+    ))
 
 
 PP.append(("""
