@@ -2,7 +2,7 @@ jpy
 ===
 A Jeopardy Clone in Python using [wxPython](http://www.wxpython.org/)
 
-![jpy screenshot](https://raw.github.com/ivanov/jpy/jpy.png)
+![jpy screenshot](https://raw.github.com/ivanov/jpy/master/jpy.png)
 
 Author: Paul Ivanov <pi (@.@) berkeley .:. edu>
 
