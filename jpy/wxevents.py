@@ -1,14 +1,16 @@
 #!/usr/bin/env python
 
-# focusevent.py
-
-import wx
-from wx import gizmos
-import pygame
-import os,sys
-
-import wx, wx.html
 import sys
+
+try:
+    import wx
+    import wx.html
+    from wx import gizmos
+except ImportError as e:
+    print e.message + ". Please install wxPython"
+    print "On Debian-based systems, run: sudo apt-get install python-wxgtk2.8"
+    sys.exit(1)
+
 
 import subprocess
 
