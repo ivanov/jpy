@@ -90,15 +90,6 @@ class Question(wx.Dialog):
         self.hwin.Bind(wx.EVT_CHAR, self.OnKeyDown)
         #self.Bind(wx.EVT_PAINT, self.OnPaint)
 
-    def test(self):
-        dlg = Question(self.pool, self.idx, 1)
-        dlg.ShowModal()
-        dlg.Destroy()  
-        if len(questions[self.pool][self.idx]) > 2:
-            dispatch = questions[self.pool][self.idx][2]
-            if evt.GetKeyCode() in dispatch:
-                dispatch[evt.GetKeyCode()]()
-
     def OnKeyDown(self, evt):
         if evt.GetKeyCode() == 121: #go to the answer ('y' pressed)
             subprocess.Popen(["mplayer","media/elevatording.wav"])
@@ -231,7 +222,6 @@ class MyWindow(wx.Panel):
         self.text.SetLabel("")
         dlg = Question(self.name, self.idx)
         # XXX: take the next line out after done testing questions
-        #dlg.test()
         print template % questions[self.name][self.idx][1]
         dlg.ShowModal()
         dlg.Destroy()  
